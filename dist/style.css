@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.content {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    padding: 15px;
+    background-color: rgb(212, 185, 29);
+    box-shadow: 1px 2px 2px black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    top: 1%;
+    border-radius: 5px;
+}
+
+a {
+    font-size: 1.1em;
+    display: block;
+}
+
+.center {
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}
