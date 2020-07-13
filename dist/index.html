@@ -25,7 +25,7 @@
     <script id="recipe-template" type="text/x-handlebars-template">
         {{#each data}}
         <div class="card">
-            <a href="{{href}}">{{title}}</a>
+            <a href="{{href}}" onerror="this.href='#'">{{title}}</a>
             <div class="center">
                 <img src="{{thumbnail}}">
             </div>
